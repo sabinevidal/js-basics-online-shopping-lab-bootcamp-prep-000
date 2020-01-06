@@ -22,8 +22,8 @@ function viewCart() {
   //iterating over cart
   for (var i=0; i < cart.length; i++){
     var key = Object.keys(cart[i])[0];
-    var price = cart[i][key]
-    itemsAndPrices.push(key + " at $" + cart[i][key]);
+    var price = cart.itemName[i];
+    itemsAndPrices.push(key + " at $" + price);
   }
   
   var beginSentence = "In your cart, you have";
