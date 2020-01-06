@@ -18,17 +18,6 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var itemsAndPrices = [];
-  
-  //iterating over cart
-  for (var i=0; i < cart.length; i++){
-    var key = Object.keys(cart[i])[0];
-    var price = cart.itemName[i];
-    itemsAndPrices.push(key + " at $" + price);
-  }
-  
-  var beginSentence = "In your cart, you have";
-  
   if (cart.length === 0) {
     return "Your shopping cart is empty.";
   } else if (itemsAndPrices.length === 1) {
