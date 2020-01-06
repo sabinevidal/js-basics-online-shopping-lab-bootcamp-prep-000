@@ -18,7 +18,8 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var itemsAndPrices = [{ itemName: item, itemPrice: Math.floor(Math.random() * 101) }];
+  var itemsAndPrices = [];
+  console.log(itemsAndPrices);
   //iterating over cart
   for (var i=0; i < cart.length; i++){
     var key = Object.keys(cart[i])[0];
