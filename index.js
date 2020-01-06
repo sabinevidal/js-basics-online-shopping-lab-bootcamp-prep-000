@@ -29,6 +29,7 @@ function viewCart() {
     for (var i = 0; i < cart.length - 1; i++) {
       myStr = MyStr + `${cart[i].itemName} at $${cart[i].itemPrice}` 
     }
+    return myStr + `
   }
 }
 
