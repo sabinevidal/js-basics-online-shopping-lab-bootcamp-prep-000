@@ -31,7 +31,7 @@ function viewCart() {
     return "Your shopping cart is empty.";
   } else if ( cart.length === 1) {
     
-    return `${beginSentence} 
+    return `${beginSentence} `
   
   }
 }
