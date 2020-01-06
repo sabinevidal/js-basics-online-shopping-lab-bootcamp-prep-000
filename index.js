@@ -25,13 +25,12 @@ function viewCart() {
     itemsAndPrices.push(key + "at $" + cart[i][key]);
   }
   
-  var beginSentence = "In your cart, you have ";
+  var beginSentence = "In your cart, you have";
   
   if (cart.length === 0) {
     return "Your shopping cart is empty.";
-  } else if ( cart.length === 1) {
-    
-    return `${beginSentence} `
+  } else if (itemsAndPrices.length === 1) {
+    return `${beginSentence} ${itemsAndPrices}.`
   
   }
 }
