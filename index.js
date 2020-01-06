@@ -20,6 +20,7 @@ function viewCart() {
   // write your code here
   var itemsAndPrices = [];
   
+  
   if (cart.length === 1) {
     return `In your cart, you have ${itemName} at ${itemPrice}.`
   } else {
