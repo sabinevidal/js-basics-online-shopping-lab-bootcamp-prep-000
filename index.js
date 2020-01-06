@@ -19,7 +19,6 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   var itemsAndPrices = [];
-  console.log(itemsAndPrices);
   //iterating over cart
   for (var i=0; i < cart.length; i++){
     var key = Object.keys(cart[i])[0];
