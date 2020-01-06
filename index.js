@@ -21,7 +21,7 @@ function viewCart() {
   if (cart.length === 0) {
     return "Your shopping cart is empty.";
   } else if (itemsAndPrices.length === 1) {
-    return `${beginSentence} ${itemsAndPrices.itemName}.`;
+    return `.`;
   
   }
 }
