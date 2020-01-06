@@ -22,6 +22,7 @@ function viewCart() {
   //iterating over cart
   for (var i=0; i < cart.length; i++){
     var key = Object.keys(cart[i])[0];
+    
   }
   
   if (cart.length === 0) {
