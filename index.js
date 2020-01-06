@@ -27,7 +27,7 @@ function viewCart() {
   } else {
     var myStr = "in your cart, you have";
     for (var i = 0; i < cart.length - 1; i++) {
-      return 
+      myStr = MyStr + 
     }
   }
 }
