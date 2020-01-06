@@ -21,6 +21,7 @@ function viewCart() {
   var itemsAndPrices = [];
   //iterating over cart
   for (var i=0; i < cart.length; i++){
+    var key = Object.keys(cart[i])[0];
     itemsAndPrices.push(key + " at $" + cart[i][key]);
   }
   
